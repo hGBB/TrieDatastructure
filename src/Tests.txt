@@ -1,0 +1,158 @@
+trie> 
+add hans 1
+trie> 
+t
++(h(a(n(s[1]))))
+trie> 
+add hansolo 2
+trie> 
+t
++(h(a(n(s[1](o(l(o[2])))))))
+trie> 
+add hanspeter 13
+trie> 
+d hansolo
+trie> 
+t
++(h(a(n(s[1](p(e(t(e(r[13])))))))))
+trie> 
+add hansguntermaierjuergenmichaelscott 103
+trie> 
+t
++(h(a(n(s[1](g(u(n(t(e(r(m(a(i(e(r(j(u(e(r(g(e(n(m(i(c(h(a(e(l(s(c(o(t(t[103] +
+)))))))))))))))))))))))))))))p(e(t(e(r[13])))))))))
+trie> 
+d hansgunter
+Error! no points associated with hansgunter
+trie> 
+d hans
+trie> 
+t
++(h(a(n(s[1](g(u(n(t(e(r(m(a(i(e(r(j(u(e(r(g(e(n(m(i(c(h(a(e(l(s(c(o(t(t[103] + 
+)))))))))))))))))))))))))))))p(e(t(e(r[13])))))))))
+trie> 
+trie> 
+add hansolo 12
+trie> 
+t
++(h(a(n(s(o(l(o[12])))))))
+trie> 
+d hansolo
+trie> 
+t
++
+trie> 
+
+
+add hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh +
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh +
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh +
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 12
+Error! key must not be empty or over 255 characters long
+trie> 
+add hans ha
+Error! Enter a valid number! 
+trie> 
+add hans §"$
+Error! Enter a valid number! 
+trie> 
+add !"§ 12
+Error! Key may only contain lowercase letters
+trie> 
+add hans 12
+trie> 
+add hansguenther 0
+trie> 
+add hanna 6
+trie> 
+add hansolo 9213123
+trie> 
+t
++(h(a(n(n(a[6])s[12](g(u(e(n(t(h(e(r[0])))))))o(l(o[9213123])))))))
+
+
+trie> 
+add hans 12
+trie> 
+add hansolo 3
+trie> 
+add hanna 7
+trie> 
+t
++(h(a(n(n(a[7])s[12](o(l(o[3])))))))
+trie> 
+d hans 
+trie> 
+t
++(h(a(n(n(a[7])s(o(l(o[3])))))))
+trie> 
+d hanna 
+trie> 
+t
++(h(a(n(s(o(l(o[3])))))))
+trie> 
+
+
+trie> 
+add hans 12
+trie> 
+add hansolo 13
+trie> 
+add hanna 1
+trie> 
+add hanchen 5
+trie> 
+t
++(h(a(n(c(h(e(n[5])))n(a[1])s[12](o(l(o[13])))))))
+trie> 
+add hannelore 10
+trie> 
+t
++(h(a(n(c(h(e(n[5])))n(a[1]e(l(o(r(e[10])))))s[12](o(l(o[13])))))))
+trie> 
+p hanna
+1
+trie> 
+p paul
+Error!  no entry paul
+Error! no value stored at paul
+trie> 
+p hans
+12
+trie> 
+d hans
+trie> 
+d hans
+Error! hans has no points
+Error! hans not found
+trie> 
+d hanchen
+trie> 
+t
++(h(a(n(n(a[1]e(l(o(r(e[10])))))s(o(l(o[13])))))))
+trie> 
+d hansolo
+trie> 
+t
++(h(a(n(n(a[1]e(l(o(r(e[10])))))))))
+trie> 
+d hanna
+trie> 
+t
++(h(a(n(n(e(l(o(r(e[10])))))))))
+trie> 
+n
+trie> 
+t
++
+trie> 
+add paul 
+Error! invalid Input
+trie> 
+add paula 3
+trie> 
+add paul 1
+trie> 
+t
++(p(a(u(l[1](a[3])))))
+trie> 
